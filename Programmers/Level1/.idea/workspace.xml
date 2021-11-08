@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.나머지가1이되는수찾기">
+  <component name="RunManager" selected="Python.부족한금액계산하기">
     <configuration name="약수의개수와덧셈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Level1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3진법뒤집기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="부족한금액계산하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Level1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3진법뒤집기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/부족한금액계산하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,11 +391,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.부족한금액계산하기" />
         <item itemvalue="Python.나머지가1이되는수찾기" />
         <item itemvalue="Python.체육복" />
         <item itemvalue="Python.예산" />
         <item itemvalue="Python.약수의개수와덧셈" />
-        <item itemvalue="Python.3진법뒤집기" />
       </list>
     </recent_temporary>
   </component>
