@@ -1,6 +1,8 @@
 def solution(strings, n):
     return sorted(sorted(strings), key = lambda x: x[n])
 
+print(solution(["abce", "abcd", "cdx"], 1))
+
 # 다른 사람 풀이
 # strings의 요소마다, n번째 글자를 맨 앞에 붙인 후 정렬하고, 다시 맨 앞글자만 뺀 나머지를 모두 answer에 추가하여 리턴!
 """
