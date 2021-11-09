@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff6d18e6-d3c2-4ca0-873c-70c52e404135" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/없는숫자더하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/완주하지못한선수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.없는숫자더하기">
+  <component name="RunManager" selected="Python.완주하지못한선수">
     <configuration name="음양더하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Level1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="소수만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="완주하지못한선수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Level1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/소수만들기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/완주하지못한선수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -454,11 +455,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.완주하지못한선수" />
         <item itemvalue="Python.없는숫자더하기" />
         <item itemvalue="Python.로또의최고순위와최저순위" />
         <item itemvalue="Python.음양더하기" />
         <item itemvalue="Python.내적" />
-        <item itemvalue="Python.소수만들기" />
       </list>
     </recent_temporary>
   </component>
