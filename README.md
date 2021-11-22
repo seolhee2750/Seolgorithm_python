@@ -8,6 +8,7 @@
 프로그래머스 문제 풀이
 ```
 - [Level 1](https://github.com/seolhee2750/Seolgorithm_python/tree/main/Programmers/Level1)
+###### 블로그 정리는 여기를 참고해주세요! 👉 [Programmers Lv.1 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20-%20Python/%F0%9F%8F%B7%20Programmers%20-%20Lv1) 👈
 
 </br>
 
@@ -17,4 +18,4 @@
 ```
 - [문자열](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/%EB%AC%B8%EC%9E%90%EC%97%B4)
 - [DP-동적프로그래밍](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/DP)
-###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ-DP 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20-%20Python/%F0%9F%94%96%20BOJ%20-%20DP) 👈
+###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ-문자열 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20-%20Python/%F0%9F%94%96%20BOJ%20-%20%EB%AC%B8%EC%9E%90%EC%97%B4) | [BOJ-DP 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20-%20Python/%F0%9F%94%96%20BOJ%20-%20DP) 👈
