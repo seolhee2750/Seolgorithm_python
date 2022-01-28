@@ -1,3 +1,5 @@
+# BOJ #2606 바이러스
+
 n = int(input())
 c = int(input())
 network = [[] for _ in range(n)]
