@@ -2,5 +2,14 @@ a, b = map(int, input().strip().split(' '))
 for i in range(0, b) :
     print("*"*a)
 
-# 다른 사람 풀이 참고
-# print(('*'*a +'\n')*b) 이렇게도 가능!!
+"""
+[ 두 번째 풀이 ]
+
+a, b = map(int, input().strip().split(' '))
+tmp = ""
+for i in range(b):
+    for j in range(a):
+        tmp += "*"
+    print(tmp)
+    tmp = ""
+"""
