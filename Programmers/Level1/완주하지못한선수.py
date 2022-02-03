@@ -9,3 +9,19 @@ def solution(participant, completion):
         else: return i; break
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
+
+"""
+[ 두 번째 문제 풀이 ]
+
+def solution(participant, completion):
+    participant.sort()
+    completion.sort()
+    answer = ''
+    
+    for i in range(len(participant)):
+        if (i == len(participant)-1) or participant[i] != completion[i]:
+            answer = participant[i]
+            break
+    
+    return answer
+"""
