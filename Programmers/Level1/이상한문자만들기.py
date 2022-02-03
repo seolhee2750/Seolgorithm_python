@@ -13,3 +13,24 @@ def solution(s):
 
 print(solution("try hello world"))
 print(solution("Apple is Delicious"))
+
+"""
+[ 두 번째 문제 풀이 ]
+
+def solution(s):
+    answer = ''
+    idx = 0
+    check = 0
+    
+    while len(answer) < len(s):
+        if s[idx] == ' ': 
+            answer += ' '
+            check = 0
+        else:
+            if check % 2 == 0: answer += s[idx].upper()
+            else: answer += s[idx].lower()
+            check += 1
+        idx += 1
+    
+    return answer
+"""
