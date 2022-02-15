@@ -1,4 +1,4 @@
-# BOJ #15649 N과 M (1) (백트래킹 입문예제)
+# BOJ #15649 N과 M (1)
 
 n, m = map(int, input().split())
 tmp = []
