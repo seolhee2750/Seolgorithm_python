@@ -1,5 +1,10 @@
 # BOJ 9663 N-Queen (백트래킹 대표예제)
 
+"""
+현재 이 문제는 파이썬으로 평범하게 백트래킹으로 풀 시 무조건 시간초과
+=> https://www.acmicpc.net/source/37836327 이 풀이 참고해서 다시 공부해보기.
+"""
+
 n = int(input())
 count = 0
 row = [0]*n
