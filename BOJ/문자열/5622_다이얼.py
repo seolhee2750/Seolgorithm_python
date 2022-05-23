@@ -5,3 +5,17 @@ answer = 0
 for i in s:
     answer += dial[alphabet.index(i)]
 print(answer)
+
+"""
+두 번째 풀이
+
+s = input()
+nums = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"]
+result = 0
+for i in s:
+    for j in range(len(nums)):
+        if i in nums[j]:
+            result += (3 + j)
+
+print(result)
+"""
