@@ -11,4 +11,9 @@ answer.sort()
 print(len(answer))
 print("\n".join(answer))
 
+"""
+딕셔너리를 사용한 이유는,
+리스트로 만들어서 검색해줄 수 있지만 딕셔너리의 get을 사용하여 검색 시 효율이 훨씬 올라감 !
+"""
+
 
