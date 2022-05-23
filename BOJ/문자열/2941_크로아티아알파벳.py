@@ -21,3 +21,28 @@ while i < len(s):
 
 if len(tmp) != 0: print(count + len(tmp))
 else: print(count)
+
+"""
+두 번째 풀이
+
+s = input()
+a = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
+result = 0
+tmp = ""
+
+for i in s:
+    tmp += i
+    if len(tmp) >= 2:
+        if tmp in a:
+            result += 1
+            tmp = ""
+        elif len(tmp) == 3:
+            if tmp[1:] in a:
+                result += 2
+                tmp = ""
+            else:
+                result += 1
+                tmp = tmp[1:]
+
+print(result + len(tmp))
+"""
