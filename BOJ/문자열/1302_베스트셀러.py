@@ -30,3 +30,24 @@ for i in range(len(count)):
 
 result.sort()
 print(result[0])
+
+"""
+두 번째 풀이
+
+import sys
+
+n = int(sys.stdin.readline().strip())
+books = dict()
+for _ in range(n):
+    now = sys.stdin.readline().strip()
+    if books.get(now) is not None:
+        books[now] = books.get(now) + 1
+    else:
+        books[now] = 1
+
+m = books.get(max(books, key=books.get))
+books = list(filter(lambda x: (books.get(x) == m), books))
+print(min(books))
+
+=> 딕셔너리와 lambda 사용하여서 풀이함
+"""
