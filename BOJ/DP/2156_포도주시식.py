@@ -18,7 +18,7 @@ else:
     for i in range(3, n):
         sums.append(max(wine[i]+sums[i-2], wine[i]+wine[i-1]+sums[i-3], sums[i-1]))
     print(max(sums))
-    
+
 """
 두 번째 풀이
 
