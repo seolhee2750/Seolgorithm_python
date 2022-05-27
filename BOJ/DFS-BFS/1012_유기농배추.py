@@ -44,3 +44,42 @@ for _ in range(t):
                 queue = []
 
     print(count)
+
+"""
+두 번째 풀이
+
+import sys
+sys.setrecursionlimit(10 ** 4)
+
+t = int(sys.stdin.readline().strip())
+
+for _ in range(t):
+    m, n, k = map(int, sys.stdin.readline().strip().split())
+    table = [[0 for _ in range(m)] for _ in range(n)]
+
+    for _ in range(k):
+        x, y = map(int, sys.stdin.readline().strip().split())
+        table[y][x] = 1
+
+    dx = [0, 0, -1, 1]
+    dy = [-1, 1, 0, 0]
+    cnt = 0
+
+    def dfs(x, y):
+        if x < 0 or y < 0 or x >= n or y >= m or table[x][y] != 1:
+            return
+        table[x][y] = 0
+        for i in range(4):
+            dfs(x+dx[i], y+dy[i])
+
+    for i in range(n):
+        for j in range(m):
+            if table[i][j] == 1:
+                dfs(i, j)
+                cnt += 1
+
+    print(cnt)
+    
+=> 재귀 dfs 이용하여 풀이하였음
+재귀 깊이를 늘려주어야 함
+"""
