@@ -43,3 +43,47 @@ else:
         result = max(result, max(countCheck[i]))
 
     print(result)
+
+"""
+두 번째 풀이
+
+import sys
+
+m, n = map(int, sys.stdin.readline().strip().split())
+table = []
+queue = []
+zero = 0
+
+for i in range(n):
+    table.append(list(map(int, sys.stdin.readline().strip().split())))
+    for j in range(m):
+        if table[i][j] == 1:
+            queue.append((i, j, 0))
+        elif table[i][j] == 0:
+            zero += 1
+
+if zero == 0:
+    print(0)
+else:
+    dx = [0, 0, -1, 1]
+    dy = [-1, 1, 0, 0]
+    idx = 0
+
+    while idx < len(queue):
+        (x, y, cnt) = queue[idx]
+        idx += 1
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if nx < 0 or ny < 0 or nx >= n or ny >= m:
+                continue
+            if table[nx][ny] == 0:
+                queue.append((nx, ny, cnt + 1))
+                zero -= 1
+                table[nx][ny] = 1
+
+    if zero > 0:
+        print(-1)
+    else:
+        print(queue[-1][-1])
+"""
