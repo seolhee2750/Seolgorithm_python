@@ -31,3 +31,52 @@ for i in visited:
     if i == 0: count += 1
 
 print(count)
+
+"""
+두 번째 풀이
+
+import sys
+
+n, m = map(int, sys.stdin.readline().strip().split())
+connect = [[] for _ in range(n+1)]
+check = [0 for _ in range(n+1)]
+queue = []
+cnt = 0
+
+for _ in range(m):
+    u, v = map(int, sys.stdin.readline().strip().split())
+    connect[u].append(v)
+    connect[v].append(u)
+
+def bfs(queue):
+    idx = 0
+    while idx < len(queue):
+        x = queue[idx]
+        idx += 1
+        check[x] = cnt
+        for i in connect[x]:
+            if check[i] > 0:
+                continue
+            else:
+                check[i] = cnt
+                if len(connect[i]) == 0:
+                    continue
+                else:
+                    queue.append(i)
+
+for i in range(1, n+1):
+    if check[i] > 0:
+        continue
+    cnt += 1
+    check[i] = cnt
+    if len(connect[i]) == 0:
+        continue
+    for j in range(len(connect[i])):
+        queue.append(connect[i][j])
+    bfs(queue)
+    queue = []
+
+print(max(check))
+
+=> bfs로 풀이하였음
+"""
