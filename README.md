@@ -12,7 +12,7 @@
 - [DP](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/DP)
 - [Greedy](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/Greedy)
 - [Stack](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/Stack)
-- [DFS/BFS](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/DFS-BFS)
+- [Graph(DFS/BFS/Floyd-Warshall)](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/Graph)
 - [BackTracking](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/BackTracking)
 - [Queue/Deque/Heap](https://github.com/seolhee2750/Seolgorithm_python/tree/main/BOJ/Queue-Deque)
 ###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ 풀이 정리](https://seolhee2750.tistory.com/category/%F0%9F%9F%A0%5B%20Python%20%5D/BOJ) 👈
