@@ -1,3 +1,24 @@
+# 플로이드 워셜 문제 풀이
+
+import sys
+sys.setrecursionlimit(10 ** 6)
+
+n = int(sys.stdin.readline().strip())
+table = []
+for _ in range(n):
+    table.append(list(map(int, sys.stdin.readline().strip().split())))
+
+for k in range(n):
+    for i in range(n):
+        for j in range(n):
+            if table[i][k] and table[k][j]:
+                table[i][j] = 1
+
+print('\n'.join(' '.join(map(str, i)) for i in table))
+
+"""
+BFS 문제 풀이
+
 import sys
 sys.setrecursionlimit(10 ** 6)
 
@@ -47,3 +68,4 @@ for i in range(n):
             result[i][j] = bfs([i], j, checkList)
 
 print('\n'.join(' '.join(map(str, i)) for i in result))
+"""
